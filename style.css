@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.simpleFunction{
+    margin: 20px;
+    width: 450px;
+    height: 100px;
+}
+
+.simpleFunction button{
+    background-color: dodgerblue;
+    color: white;
+    text-transform: capitalize;
+    border: none;
+    cursor: pointer;
+}
