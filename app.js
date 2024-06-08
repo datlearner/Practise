@@ -164,6 +164,7 @@ const reverseString = (str) => {
 
 
 console.log(reverseString('kundai'));
+console.log(reverseString('javascript'));
 
 
 
