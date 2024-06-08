@@ -109,7 +109,35 @@ const factoriall = (n) => {
 
 console.log(factoriall(5));
 console.log(factoriall(0));
-console.log(factoriall(-3)); //negative numbers
+console.log(factoriall(-3)); //negative numbers;
+
+//Exercise 6: Array Sum
+//Write a function named arraySum that takes an array of numbers as an argument and returns the sum of all the numbers in the array.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
