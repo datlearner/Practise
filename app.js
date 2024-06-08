@@ -74,3 +74,9 @@ const maxExercise = (a, b, c,...d) => {
 
 console.log(maxExercise(10, 20, 30, 40));
 
+//Exercise 5: Factorial
+//Write a function named factorial that takes a single argument n and returns the factorial of n (i.e., n!).
+
+const factorial = () => {
+    
+};
