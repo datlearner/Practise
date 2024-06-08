@@ -19,3 +19,22 @@
     border: none;
     cursor: pointer;
 }
+
+.sum h4{
+    font-weight: bolder;
+    margin: 20px;
+}
+
+.sum button{
+    text-transform: capitalize;
+    margin-left: 10px;
+    background-color: dodgerblue;
+    width: 100px;
+    border: none;
+    padding: 6px;
+    color: white;
+}
+
+span{
+    margin: 20px;
+}
