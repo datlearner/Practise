@@ -26,3 +26,38 @@ const sum = (a, b) => {
 };
 
 console.log(sum(5,5));
+
+//Exercise 3: Even or Odd
+//Write a function named isEven that takes a single argument num and returns true if the number is even, and false if it is odd.
+
+const isEven = (num) => {
+
+    if (num % 2 === 0) {
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+
+console.log(isEven(2));
+
+const isEvenInput = document.getElementById('even');
+
+const sumHeader = document.getElementById('sumHeader');
+
+const evenbtn = document.getElementById('evenbtn');
+
+evenbtn.addEventListener('click', () => {
+    sumHeader.textContent = isEven(isEvenInput.value);
+});
+
+
+
+
+
+
+
+
+
+
