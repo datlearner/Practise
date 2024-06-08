@@ -149,6 +149,8 @@ const fizzBuzz = () => {
             result.push(i);
         }
     }
+
+    return result;
 }
 
 
