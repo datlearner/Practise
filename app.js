@@ -21,3 +21,8 @@ userDetails.addEventListener('click', () => {
 // Exercise 2: Sum of Two Numbers
 //Write a function named sum that takes two arguments a and b and returns their sum.
 
+const sum = (a, b) => {
+    return a + b;
+}
+ 
+console.log(sum(5,3));
