@@ -158,12 +158,9 @@ console.log(fizzBuzz(10));
 //Exercise 9: Reverse a String
 //Write a function named reverseString that takes a single argument str and returns the string reversed.
 
-
-
-
-
-
-
+const reverseString = (str) => {
+    return str.split('').reverse().join('');
+};
 
 
 
