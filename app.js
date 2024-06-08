@@ -170,7 +170,8 @@ let fruit = 'kundai';
 
 console.log(fruit.split(' ').reverse().join());
 
-
+//Exercise 10: Count Vowels
+//Write a function named countVowels that takes a single argument str and returns the number of vowels in the string.
 
 
 
