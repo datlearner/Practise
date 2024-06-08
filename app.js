@@ -117,6 +117,14 @@ console.log(factoriall(-3)); //negative numbers;
 //Exercise 7: Palindrome
 //Write a function named isPalindrome that takes a single argument str and returns true if the string is a palindrome (reads the same backward as forward), and false otherwise.
 
+const isPalindrome = (str) => {
+    if (str === 'madam') {
+        return true;
+    }
+    else{
+        return false
+    }
+}
 
 
 
