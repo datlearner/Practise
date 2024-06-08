@@ -97,6 +97,21 @@ console.log(factorial(15));
 In the recursive approach, the function calls itself with the value n-1 until it reaches 0 or 1.
 */
 
+const factoriall = (n) => {
+    if (n < 0) {
+        return "Factorial is not defined for negative numbers";
+    } else if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * factoriall(n - 1);
+    }
+}
+
+console.log(factoriall(5));
+console.log(factoriall(0));
+console.log(factoriall(-3)); //negative numbers
+
+
 
 
 
