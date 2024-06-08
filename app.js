@@ -166,6 +166,9 @@ const reverseString = (str) => {
 console.log(reverseString('kundai'));
 console.log(reverseString('javascript'));
 
+let fruit = 'kundai';
+
+console.log(fruit.split(' ').reverse().join());
 
 
 
