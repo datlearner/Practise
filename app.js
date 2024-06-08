@@ -163,6 +163,7 @@ const reverseString = (str) => {
 };
 
 
+console.log(reverseString('kundai'));
 
 
 
