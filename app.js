@@ -94,8 +94,19 @@ console.log(factorial(15));
 
 // recursive approach
 /*
-
+In the recursive approach, the function calls itself with the value n-1 until it reaches 0 or 1.
 */
+
+
+
+
+
+
+
+
+
+
+
 
 
 
