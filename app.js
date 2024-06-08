@@ -129,7 +129,7 @@ const isPalindrome = (str) => {
 
 console.log(isPalindrome('madam')); // true
 console.log(isPalindrome('racecar')); //true
-console.log(isPalindrome('hello'));
+console.log(isPalindrome('hello')); // false
 
 
 
