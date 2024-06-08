@@ -32,6 +32,11 @@ console.log(sum(5,5));
 
 const isEven = (num) => {
 
+    num = Number(num); // Convert input to a number
+    if (isNaN(num)) { // Check if the input is a valid number
+        return "Please enter a valid number.";
+    }
+
     if (num % 2 === 0) {
         return true;
     }
