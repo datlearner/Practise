@@ -27,5 +27,3 @@ Write a function named reverseString that takes a single argument str and return
 
 Exercise 10: Count Vowels
 Write a function named countVowels that takes a single argument str and returns the number of vowels in the string.
-
-Good luck! Let me know if you need any hints or explanations for any of the exercises.
