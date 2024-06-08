@@ -78,5 +78,13 @@ console.log(maxExercise(10, 20, 30, 40));
 //Write a function named factorial that takes a single argument n and returns the factorial of n (i.e., n!).
 
 const factorial = () => {
-    
+    if (n < 0) {
+        return "Factorial is not defined for negative numbers";
+    }
+    let result = 1;
+    for (let i = 1; i <= n; i++) {
+        result *= i;
+    }
+    return result;
 };
+
