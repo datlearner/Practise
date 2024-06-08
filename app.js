@@ -130,6 +130,7 @@ const isPalindrome = (str) => {
 console.log(isPalindrome('madam')); // true
 console.log(isPalindrome('racecar')); //true
 console.log(isPalindrome('hello')); // false
+console.log('kundai');
 
 
 
