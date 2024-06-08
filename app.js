@@ -174,10 +174,21 @@ console.log(fruit.split(' ').reverse().join());
 //Write a function named countVowels that takes a single argument str and returns the number of vowels in the string.
 
 const countVowels = (str) => {
-    return str.length;
+    const vow = new Set(['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']);
+
+    let count = 0;
+
+    for (const i of str) {
+        if (vow.has(i)) {
+            count++;
+        }
+    }
+
+    return count;
 }
 
-console.log(countVowels('kundai'))
+console.log(countVowels('kundai'));
+
 
 
 
