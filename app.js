@@ -20,7 +20,7 @@ userDetails.addEventListener('click', () => {
 
 // Exercise 2: Sum of Two Numbers
 //Write a function named sum that takes two arguments a and b and returns their sum.
-
+/*
 const sum = (a, b) => {
     return a + b;
 };
@@ -58,7 +58,14 @@ evenbtn.addEventListener('click', () => {
 });
 
 
+//Exercise 4: Find the Largest Number
+//Write a function named max that takes three arguments a, b, and c and returns the largest of the three numbers.
+*/
 
+const max = (a, b, c) => {
+    return Math.max(a, b, c);
+}
+console.log(max(33, 2, 200));
 
 
 
