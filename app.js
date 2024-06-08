@@ -72,5 +72,5 @@ const maxExercise = (a, b, c,...d) => {
     return Math.min(a, b, c, d);
 }
 
-console.log(maxExercise(10, 20, 30, 40))
+console.log(maxExercise(10, 20, 30, 40));
 
