@@ -114,12 +114,8 @@ console.log(factoriall(-3)); //negative numbers;
 //Exercise 6: Array Sum
 //Write a function named arraySum that takes an array of numbers as an argument and returns the sum of all the numbers in the array.
 
-
-
-
-
-
-
+//Exercise 7: Palindrome
+//Write a function named isPalindrome that takes a single argument str and returns true if the string is a palindrome (reads the same backward as forward), and false otherwise.
 
 
 
