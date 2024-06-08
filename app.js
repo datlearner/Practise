@@ -118,13 +118,15 @@ console.log(factoriall(-3)); //negative numbers;
 //Write a function named isPalindrome that takes a single argument str and returns true if the string is a palindrome (reads the same backward as forward), and false otherwise.
 
 const isPalindrome = (str) => {
-    if (str === 'madam') {
-        return true;
-    }
-    else{
-        return false
-    }
+    
+        const cleanedStr = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+    
+        const reversedStr = cleanedStr.split('').reverse().join('');
+
+        return cleanedStr === reversedStr;
+    
 }
+
 
 
 
