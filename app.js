@@ -135,7 +135,7 @@ console.log('kundai');
 //Exercise 8: FizzBuzz
 //Write a function named fizzBuzz that takes a single argument n and returns an array of numbers from 1 to n, but for multiples of three, it should add "Fizz" instead of the number and for multiples of five, it should add "Buzz". For numbers which are multiples of both three and five, it should add "FizzBuzz".
 
-const fizzBuzz = () => {
+const fizzBuzz = (n) => {
     const result = [];
 
     for (let i = 1; i <= n; i++) {
@@ -153,6 +153,7 @@ const fizzBuzz = () => {
     return result;
 }
 
+console.log(fizzBuzz(10));
 
 
 
