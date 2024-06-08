@@ -127,8 +127,8 @@ const isPalindrome = (str) => {
     
 }
 
-console.log(isPalindrome('madam'));
-console.log(isPalindrome('racecar'));
+console.log(isPalindrome('madam')); // true
+console.log(isPalindrome('racecar')); //true
 
 
 
