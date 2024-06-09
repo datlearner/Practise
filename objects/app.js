@@ -23,3 +23,8 @@ for (let i in contact) {
 }
 
 console.log(txt);
+
+// Define an empty contact list
+let contacts = [];
+
+
