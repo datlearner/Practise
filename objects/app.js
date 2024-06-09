@@ -9,10 +9,17 @@ Add a new contact to the list. Remove a contact by their name. List all contacts
 Implement a search functionality to find contacts by name. Update the details of an existing contact.
 */
 
-const Contact = {
+const contact = {
     name : 'Kundai',
     phoneNumber : `065-456-8733`,
     email : 'kundai@icloud.com'
 };
 
-console.log(Contact);
+
+let txt = '';
+
+for (let i in contact) {
+    txt += contact[i] + ' ';
+}
+
+console.log(txt);
