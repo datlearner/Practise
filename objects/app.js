@@ -37,3 +37,9 @@ function addContact(name, phone, email) {
     contacts.push(contact);
 }
 
+
+// Function to remove a contact by name
+function removeContact(name) {
+    contacts = contacts.filter(contact => contact.name !== name);
+}
+
