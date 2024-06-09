@@ -43,3 +43,8 @@ function removeContact(name) {
     contacts = contacts.filter(contact => contact.name !== name);
 }
 
+// Function to list all contacts
+function listContacts() {
+    console.log("Contact List:");
+    contacts.forEach(contact => console.log(`${contact.name} - ${contact.phone} - ${contact.email}`));
+}
