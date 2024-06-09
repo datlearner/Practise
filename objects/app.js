@@ -27,4 +27,13 @@ console.log(txt);
 // Define an empty contact list
 let contacts = [];
 
+// Function to add a new contact
+function addContact(name, phone, email) {
+    const contact = {
+        name: name,
+        phone: phone,
+        email: email
+    };
+    contacts.push(contact);
+}
 
