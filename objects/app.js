@@ -48,3 +48,6 @@ function listContacts() {
     console.log("Contact List:");
     contacts.forEach(contact => console.log(`${contact.name} - ${contact.phone} - ${contact.email}`));
 }
+
+//example
+addContact("kundai", "123-456-7890", "kunda@icloud.com");
