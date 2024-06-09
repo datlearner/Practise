@@ -54,4 +54,4 @@ addContact("kundai", "123-456-7890", "kunda@icloud.com");
 addContact("Jane Smith", "987-654-3210", "jane@icloud.com");
 listContacts();
 removeContact("John Doe");
-
+listContacts();
