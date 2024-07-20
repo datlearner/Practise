@@ -13,7 +13,7 @@ class Person{
     }
 
     greet () {
-        return ``
+        return `${currentTime} >= 12 ? 'Good Afternoon' ${this.name}' : 'Good morning ${this.name}';
     }
 }
 
@@ -25,6 +25,7 @@ console.log(firstPerson.name);
 
 console.log(firstPerson.age);
 
+console.log(Person.greet);
 /**
  * Class Methods:
  Add a method greet to the Person class that returns a greeting message
