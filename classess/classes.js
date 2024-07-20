@@ -25,7 +25,7 @@ console.log(firstPerson.name);
 
 console.log(firstPerson.age);
 
-console.log(firstPerson.greet)
+console.log(firstPerson.greet())
 
 /**
  * Class Methods:
