@@ -24,6 +24,7 @@ class Person{
 
 let firstPerson = new Person('kundai', 'muchemwa');
 
+let secondPerson = new Person('john', 'doe');
 
 console.log(firstPerson);
 
