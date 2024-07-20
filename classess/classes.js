@@ -12,10 +12,10 @@ class Person{
 
     greet () {
         let currentDay = new Date();
-        if (currentDay >= 12){
+        if (currentDay.getHours >= 12){
             return `good afternoon ${this.name}`;
         }
-        else if (currentDay < 12) {
+        else if (currentDay.getHours < 12) {
             return `good morning ${this.name}`;
         }
     }
