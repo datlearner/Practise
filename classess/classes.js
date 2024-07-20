@@ -4,8 +4,6 @@
  * Create an instance of the class and log the properties.
  */
 
-let currentTime = new Date();
-
 class Person{
     constructor(name, age){
         this.name = name;
