@@ -15,7 +15,7 @@ class Person{
         if (currentDay >= 12){
             return `good afternoon ${this.name}`;
         }
-        else if (currentDay.getHours < 12) {
+        else if (currentDay < 12) {
             return `good morning ${this.name}`;
         }
     }
