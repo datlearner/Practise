@@ -26,8 +26,6 @@ let firstPerson = new Person('kundai', 'muchemwa');
 
 let secondPerson = new Person('john', 'doe');
 
-let thirdPerson = new Person(...firstPerson, ...secondPerson);
-
 console.log(firstPerson);
 
 console.log(firstPerson.name);
