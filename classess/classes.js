@@ -26,6 +26,8 @@ let firstPerson = new Person('kundai', 'muchemwa');
 
 let secondPerson = new Person('john', 'doe');
 
+let thirdPerson = firstPerson + secondPerson;
+
 console.log(firstPerson);
 
 console.log(firstPerson.name);
@@ -35,6 +37,7 @@ console.log(firstPerson.age);
 console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
+console.log(thirdPerson)
 /**
  * Class Methods:
  Add a method greet to the Person class that returns a greeting message
