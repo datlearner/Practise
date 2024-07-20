@@ -11,7 +11,10 @@ class Person{
     }
 
     greet () {
-        return `How are you ${this.name}`;
+        let currentDay = new Date();
+        if (currentDay >= 12){
+            return `How are you ${this.name}`;
+        }
     }
 }
 
