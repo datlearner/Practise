@@ -22,7 +22,8 @@ class Person{
     }
 }
 
-const firstPerson = new Person('kundai', 'muchemwa');
+let firstPerson = new Person('kundai', 'muchemwa');
+
 
 console.log(firstPerson);
 
