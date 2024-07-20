@@ -1,0 +1,12 @@
+{
+  "name": "practise",
+  "version": "1.0.0",
+  "description": "Exercise 1: Simple Function Write a function named greet that takes a single argument name and returns a greeting message.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

@@ -190,21 +190,12 @@ const countVowels = (str) => {
 console.log(countVowels('kundai'));
 
 
+const myAdded = [];
 
+function myApples(m){
+    return m;
+}
 
+console.log(myApples('dl'))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+console.log(myApples('dl')) 
