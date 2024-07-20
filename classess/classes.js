@@ -4,10 +4,16 @@
  * Create an instance of the class and log the properties.
  */
 
+let currentTime = new Date();
+
 class Person{
     constructor(name, age){
         this.name = name;
         this.age = age;
+    }
+
+    greet () {
+        return ``
     }
 }
 
@@ -25,4 +31,3 @@ console.log(firstPerson.age);
  using the name property. Create an instance and call the method.
  */
 
- 
