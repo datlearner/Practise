@@ -11,6 +11,7 @@ class Person{
     }
 
     greet () {
+        // added some methods this class
         let currentDay = new Date().getHours();
         if (currentDay >= 12){
             return `good afternoon ${this.name}`;
