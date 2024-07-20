@@ -17,3 +17,5 @@ const firstPerson = new Person('kundai', 'muchemwa');
 console.log(firstPerson);
 
 console.log(firstPerson.name);
+
+console.log(firstPerson.age);
