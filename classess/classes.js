@@ -26,7 +26,7 @@ let firstPerson = new Person('kundai', 'muchemwa');
 
 let secondPerson = new Person('john', 'doe');
 
-let thirdPerson = firstPerson + secondPerson;
+let thirdPerson = new Person(firstPerson + secondPerson);
 
 console.log(firstPerson);
 
