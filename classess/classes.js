@@ -35,7 +35,7 @@ console.log(firstPerson.age);
 console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
-console.log(thirdPerson)
+
 /**
  * Class Methods:
  Add a method greet to the Person class that returns a greeting message
