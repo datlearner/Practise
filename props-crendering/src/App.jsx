@@ -1,6 +1,7 @@
 import AdminDashboard from "./Admin.jsx"
 import Greeting from "./Greeting.jsx"
 import UserStatus from "./UserStatus.jsx"
+import Product from "./Product.jsx"
 function App() {
 
   return (
@@ -12,6 +13,7 @@ function App() {
      <Greeting name="John Joe" />
      <UserStatus isLoggedIn = {true} />
      <UserStatus isLoggedIn = {false} />
+     <Product />
     </>
   )
 }
