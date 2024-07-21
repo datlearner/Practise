@@ -16,11 +16,10 @@ import PropTypes from 'prop-types'
 
 function UserStatus(props){
     return(
-        /**
-         * first i am gonna use the ternary operator and lastly using the if statement
-         */
-
         const isLoggedIn = props.isLoggedIn;
+        if (isLoggedIn){
+            return <h2>Welcome</h2>
+        }
 
     )
 }
