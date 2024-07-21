@@ -78,3 +78,5 @@ console.log(car1);
 console.log(car1.make);
 
 console.log(car1.model);
+
+console.log(car1.age)
