@@ -12,3 +12,12 @@
   text-transform: capitalize;
   font-size: 1.4rem;
 }
+
+.green{
+  background-color: green;
+}
+
+.red{
+  background-color: red;
+  
+}

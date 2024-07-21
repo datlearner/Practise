@@ -19,10 +19,10 @@ function UserStatus(props){
     // eslint-disable-next-line react/prop-types
     const isLoggedIn = props.isLoggedIn;
     if (isLoggedIn){
-        return <h2>Welcome back </h2>
+        return <h2 className="green">Welcome back </h2>
     }
     else{
-        return <h2>please log in to continue</h2>
+        return <h2 className="red">please log in to continue</h2>
     }
 }
 
