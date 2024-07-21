@@ -31,4 +31,6 @@ Product.propTypes = {
     instock: PropTypes.bool
 }
 
+Product.defaultProp
+
 export default Product
