@@ -17,10 +17,10 @@ import PropTypes from 'prop-types'
 function UserStatus(props){
     return(
         /**
-         * first i am gonna use the ternary operator
+         * first i am gonna use the ternary operator and lastly using the if statement
          */
         <div>
-            
+
         </div>
     )
 }
