@@ -1,3 +1,4 @@
+import PropsType from 'props-type'
 
 function AdminDashboard(props){
     return(
@@ -7,6 +8,10 @@ function AdminDashboard(props){
             <p>isStudent: {props.isStudent ? "Yes" : "No"} </p>
         </div>
     );
+}
+
+AdminDashboard.propsType = {
+    name: PropsType.string
 }
 
 export default AdminDashboard
