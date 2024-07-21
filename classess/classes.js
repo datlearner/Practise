@@ -31,7 +31,7 @@ class Person{
 
     age() {
         let dayy = new Date().getFullYear();
-        console.log(dayy);
+        return `${dayy}`
 
     }
 }
