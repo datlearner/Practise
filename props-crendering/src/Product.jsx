@@ -32,8 +32,8 @@ Product.propTypes = {
 }
 
 Product.defaultProps ={
-    name: PropTypes.string,
-    price: PropTypes.number,
+    name: 'unkown product',
+    price: 0,
     instock: PropTypes.bool
 }
 
