@@ -16,6 +16,7 @@ import PropTypes from 'prop-types'
 
 function UserStatus(props){
 
+    // eslint-disable-next-line react/prop-types
     const isLoggedIn = props.isLoggedIn;
     if (isLoggedIn){
         return <h2>Welcome back </h2>
