@@ -3,7 +3,7 @@ function App() {
 
   return (
     <>
-     <AdminDashboard />
+     <AdminDashboard name="kundai" age= {27} isStudent = {true} />
     </>
   )
 }
