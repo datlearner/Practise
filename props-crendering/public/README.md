@@ -7,6 +7,7 @@ Create a Greeting component in a new file.
 The component should accept a name prop.
 Render a message like "Hello, [name]!".
 Use this component in your App component with different names.
+
 Exercise 2: User Status Component
 Objective: Create a UserStatus component that displays whether a user is logged in or not based on a prop.
 
