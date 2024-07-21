@@ -32,7 +32,7 @@ class Person{
     yearsOld() {
         let dayy = new Date().getFullYear();
         let currentYear = 1997
-        return `${this.name} is ${dayy - current} years old`;
+        return `${this.name} is ${dayy - currentYear} years old`;
     }
 }
 let firstPerson = new Person('kundai', 'muchemwa');
