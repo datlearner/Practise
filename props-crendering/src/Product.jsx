@@ -13,8 +13,6 @@ Use this component in your App component with different products.
 
  */
 
-
-
 import PropTypes from 'prop-types'
 
 function Product (props) {
@@ -27,7 +25,7 @@ function Product (props) {
     );
 }
 
-Product.propsType = {
+Product.propTypes = {
     name: PropTypes.string,
     price: PropTypes.number,
     instock: PropTypes.bool
