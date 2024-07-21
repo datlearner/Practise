@@ -13,7 +13,13 @@ function AdminDashboard(props){
 AdminDashboard.propTypes = {
     name: PropTypes.string,
     age: PropTypes.number,
-    isStudent: PropTypes.bool
+    isStudent: PropTypes.bool,
+}
+
+AdminDashboard.defaultProps ={
+    name: PropTypes.string,
+    age: PropTypes.number,
+    isStudent: PropTypes.bool,
 }
 
 export default AdminDashboard
