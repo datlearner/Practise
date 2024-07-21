@@ -10,7 +10,7 @@ function App() {
      <AdminDashboard name="bianca" />
      <Greeting name="Kundai" />
      <Greeting name="John Joe" />
-     <UserStatus isLoggedIn = {true} />
+     <UserStatus isLoggedIn = {false} />
     </>
   )
 }
