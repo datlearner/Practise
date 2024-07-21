@@ -4,6 +4,14 @@
  * Create an instance of the class and log the properties.
  */
 
+/**
+ * Class Methods:
+ Add a method greet to the Person class that returns a greeting message
+ using the name property. Create an instance and call the method.
+ */
+
+
+
 class Person{
     constructor(name, age){
         this.name = name;
@@ -36,9 +44,5 @@ console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
 
-/**
- * Class Methods:
- Add a method greet to the Person class that returns a greeting message
- using the name property. Create an instance and call the method.
- */
+
 
