@@ -71,4 +71,5 @@ class Car{
 
 }
 
-let car1 = new Car()
+let car1 = new Car('toyota', 'corolla', 2003);
+
