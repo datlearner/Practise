@@ -31,7 +31,7 @@ class Person{
 
     yearsOld() {
         let dayy = new Date().getFullYear();
-        let current = new Date(1997)
+        let currentYear = 1997
         return `${this.name} is ${dayy - current} years old`;
     }
 }
