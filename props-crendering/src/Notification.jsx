@@ -11,9 +11,17 @@
     Use this component in your App component to display both types of notifications.
 
  */
+import PropTypes from 'prop-types';
+
 function Notification(props){
-    const messagee = {props.name}
+    return(
+        props.name ? 'Success' : 'error'
+    );
 }
 
+
+Notification.propTypes = {
+    name: PropTypes.bool
+}
 
 export default Notification

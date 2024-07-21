@@ -2,6 +2,7 @@ import AdminDashboard from "./Admin.jsx"
 import Greeting from "./Greeting.jsx"
 import UserStatus from "./UserStatus.jsx"
 import Product from "./Product.jsx"
+import Notification from "./Notification.jsx"
 function App() {
 
   return (
@@ -15,6 +16,7 @@ function App() {
      <UserStatus isLoggedIn = {false} />
      <Product name = "macbook" price = {`$1500`} instock = {true}/>
      <Product />
+     <Notification name= {false} />
     </>
   )
 }
