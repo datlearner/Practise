@@ -13,6 +13,8 @@ Use this component in your App component with different products.
 
  */
 
+import PropsTypes from 'prop-types'
+
 function Product (props) {
     return (
         <div>
@@ -23,8 +25,10 @@ function Product (props) {
     );
 }
 
-Product.propType = {
-    name: 
+Product.propsType = {
+    name: PropsTypes.string,
+    price: PropsTypes.number,
+    instock: PropsTypes.bool
 }
 
 export default Product
