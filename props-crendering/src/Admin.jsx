@@ -1,7 +1,7 @@
 
 function AdminDashboard(props){
     return(
-        <div>
+        <div className="card">
             <p>Name: {props.name}</p>
             <p>Age: {props.age} </p>
             <p>isStudent: {props.isStudent ? "Yes" : "No"} </p>
