@@ -14,7 +14,7 @@ Use this component in your App component with different names.
 function Greeting(props) {
     return(
         <div>
-            
+            <h2> `Hello ${props.name}!` </h2>
         </div>
     )
 }
