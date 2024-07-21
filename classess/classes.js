@@ -70,3 +70,5 @@ class Car{
     }
 
 }
+
+let car1 = new Car()
