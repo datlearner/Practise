@@ -20,7 +20,7 @@ function Product (props) {
         <div>
             <p>Name: {props.name} </p>
             <p>Price: {props.price} </p>
-            <p>inStock: {props.instock ? "In Stock" : "No"}</p>
+            <p>inStock: {props.instock ? "In Stock" : "Out Of Stock"}</p>
         </div>
     );
 }
