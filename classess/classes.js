@@ -57,7 +57,11 @@ Create a class Car with properties make, model, and year. Add a method age that 
  */
 
 class Car{
-    constructor(){
-        
+    constructor(make, model, year){
+        this.make = make;
+        this.model = model;
+        this.year = year;
     }
+
+    
 }
