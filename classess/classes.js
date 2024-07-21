@@ -28,6 +28,10 @@ class Person{
             return `good morning ${this.name}`;
         }
     }
+
+    run() {
+        return true
+    }
 }
 let firstPerson = new Person('kundai', 'muchemwa');
 
@@ -42,3 +46,5 @@ console.log(firstPerson.age);
 console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
+
+console.log(firstPerson.run())
