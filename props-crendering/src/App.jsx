@@ -1,4 +1,4 @@
-import AdminDashboard from "./Admin"
+import AdminDashboard from "./Admin.jsx"
 function App() {
 
   return (
