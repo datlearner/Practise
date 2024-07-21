@@ -21,10 +21,11 @@ function UserStatus(props){
          */
         <div>
 
-            <p>{props.isLoggedIn ? "welcome back" : 
-        'log in to contine'}</p>
+            {props.isLoggedIn ? "welcome back" : 
+        'log in to contine'}
         </div>
     )
 }
+
 
 export default UserStatus
