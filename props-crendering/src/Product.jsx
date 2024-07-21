@@ -33,7 +33,8 @@ Product.propTypes = {
 
 Product.defaultProps ={
     name: PropTypes.string,
-    price: PropTypes.number
+    price: PropTypes.number,
+    instock: PropTypes.bool
 }
 
 export default Product
