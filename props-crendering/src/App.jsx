@@ -1,9 +1,9 @@
-
+import AdminDashboard from "./Admin"
 function App() {
 
   return (
     <>
-     
+     <AdminDashboard />
     </>
   )
 }
