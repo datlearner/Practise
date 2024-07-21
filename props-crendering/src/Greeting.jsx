@@ -10,3 +10,13 @@ Render a message like "Hello, [name]!".
 Use this component in your App component with different names.
 
  */
+
+function Greeting(props) {
+    return(
+        <div>
+            
+        </div>
+    )
+}
+
+export default Greeting
