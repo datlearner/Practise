@@ -11,7 +11,9 @@
     Use this component in your App component to display both types of notifications.
 
  */
-
-export default function Notification(props){
-    
+function Notification(props){
+    const messagee = {props.name}
 }
+
+
+export default Notification
