@@ -34,7 +34,7 @@ Product.propTypes = {
 Product.defaultProps ={
     name: 'unkown product',
     price: 0,
-    instock: PropTypes.bool
+    instock: false
 }
 
 export default Product
