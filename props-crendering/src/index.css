@@ -7,9 +7,6 @@
 
 }
 
-.flex{
-  display: flex;
-}
 .card p{
   padding: 5px;
   text-transform: capitalize;
