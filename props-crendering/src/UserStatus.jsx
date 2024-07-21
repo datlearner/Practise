@@ -18,7 +18,7 @@ function UserStatus(props){
 
     const isLoggedIn = props.isLoggedIn;
     if (isLoggedIn){
-        return <h2>Welcome back {props.name} </h2>
+        return <h2>Welcome back </h2>
     }
     else{
         return <h2>please log in to continue</h2>
@@ -27,7 +27,6 @@ function UserStatus(props){
 
 
 UserStatus.propType = {
-    name: PropTypes.string,
     isLoggedIn: PropTypes.bool
 }
 
