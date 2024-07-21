@@ -14,7 +14,11 @@ Use this component in your App component with different products.
  */
 
 function Product () {
-
+    return (
+        <div>
+            
+        </div>
+    );
 }
 
 export default Product
