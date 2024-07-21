@@ -10,6 +10,7 @@ Render a message like "Hello, [name]!".
 Use this component in your App component with different names.
 
  */
+import PropTypes from 'prop-types'
 
 function Greeting(props) {
     return(
@@ -17,6 +18,10 @@ function Greeting(props) {
             <h2> `Hello ${props.name}!` </h2>
         </div>
     )
+}
+
+Greeting.propTypes = {
+    name: PropTypes.string
 }
 
 export default Greeting
