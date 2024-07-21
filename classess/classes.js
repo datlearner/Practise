@@ -64,7 +64,7 @@ class Car{
     }
 
     age() {
-        
+        let carAge = new Date().getFullYear();
     }
 
 }
