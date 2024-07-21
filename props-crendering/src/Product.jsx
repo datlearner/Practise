@@ -13,10 +13,10 @@ Use this component in your App component with different products.
 
  */
 
-function Product () {
+function Product (props) {
     return (
         <div>
-            
+            <p>Name: {} </p>
         </div>
     );
 }
