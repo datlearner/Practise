@@ -29,7 +29,7 @@ class Person{
         }
     }
 
-    age() {
+    agee() {
         let dayy = new Date().getFullYear();
         return `${dayy}`
 
@@ -54,4 +54,4 @@ console.log(secondPerson.greet());
 */
 console.log(firstPerson.age)
 
-
+console.log(firstPerson.greet())
