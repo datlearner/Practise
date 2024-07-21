@@ -55,3 +55,9 @@ console.log(firstPerson.yearsOld());
  * 
 Create a class Car with properties make, model, and year. Add a method age that calculates the car's age based on the current year.
  */
+
+class Car{
+    constructor(){
+        
+    }
+}
