@@ -1,4 +1,5 @@
 import AdminDashboard from "./Admin.jsx"
+import Greeting from "./Greeting.jsx"
 function App() {
 
   return (
@@ -6,6 +7,7 @@ function App() {
      <AdminDashboard name="kundai" age= {27} isStudent = {true} />
      <AdminDashboard name="john doe" age = {33} isStudent = {false} />
      <AdminDashboard name="bianca" />
+     <Greeting name="kunda" />
     </>
   )
 }
