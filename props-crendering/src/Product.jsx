@@ -13,7 +13,7 @@ Use this component in your App component with different products.
 
  */
 
-import PropsTypes from 'prop-types'
+import PropTypes from 'prop-types'
 
 function Product (props) {
     return (
@@ -26,9 +26,9 @@ function Product (props) {
 }
 
 Product.propsType = {
-    name: PropsTypes.string,
-    price: PropsTypes.number,
-    instock: PropsTypes.bool
+    name: PropTypes.string,
+    price: PropTypes.number,
+    instock: PropTypes.bool
 }
 
 export default Product
