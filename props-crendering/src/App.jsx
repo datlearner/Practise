@@ -14,7 +14,6 @@ function App() {
      <UserStatus isLoggedIn = {true} />
      <UserStatus isLoggedIn = {false} />
      <Product name = "macbook" price = {`$1500`} instock = {true}/>
-     <Product />
     </>
   )
 }
