@@ -63,5 +63,8 @@ class Car{
         this.year = year;
     }
 
-    
+    age() {
+        
+    }
+
 }
