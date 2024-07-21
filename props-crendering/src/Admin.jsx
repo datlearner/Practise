@@ -1,4 +1,4 @@
-import PropType from 'prop-types'
+import PropsType from 'prop-types'
 
 function AdminDashboard(props){
     return(
@@ -10,10 +10,10 @@ function AdminDashboard(props){
     );
 }
 
-AdminDashboard.propType = {
-    name: PropType.string,
-    age: PropType.number,
-    isStudent: PropType.bool
+AdminDashboard.propsType = {
+    name: PropsType.string,
+    age: PropsType.number,
+    isStudent: PropsType.bool
 }
 
 export default AdminDashboard
