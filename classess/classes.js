@@ -28,12 +28,6 @@ class Person{
             return `good morning ${this.name}`;
         }
     }
-
-    agee() {
-        let dayy = new Date().getFullYear();
-        return `${dayy}`
-
-    }
 }
 let firstPerson = new Person('kundai', 'muchemwa');
 
