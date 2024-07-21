@@ -12,3 +12,9 @@ If inStock is false, display "Out of Stock".
 Use this component in your App component with different products.
 
  */
+
+function Product () {
+
+}
+
+export default Product
