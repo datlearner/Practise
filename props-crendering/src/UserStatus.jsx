@@ -16,8 +16,11 @@ import PropTypes from 'prop-types'
 
 function UserStatus(props){
     return(
+        /**
+         * first i am gonna use the ternary operator
+         */
         <div>
-
+            
         </div>
     )
 }
