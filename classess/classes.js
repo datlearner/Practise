@@ -29,8 +29,10 @@ class Person{
         }
     }
 
-    run() {
-        return true
+    yearsOld() {
+        let dayy = new Date().getFullYear();
+        let current = new Date(1997)
+        return `${this.name} is ${dayy - current} years old`;
     }
 }
 let firstPerson = new Person('kundai', 'muchemwa');
@@ -47,4 +49,4 @@ console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
 
-console.log(firstPerson.run())
+console.log(firstPerson.yearsOld())
