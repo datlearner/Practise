@@ -15,14 +15,20 @@ Use this component in your App component and toggle the isLoggedIn prop.
 import PropTypes from 'prop-types'
 
 function UserStatus(props){
-    return(
-        const isLoggedIn = props.isLoggedIn;
-        if (isLoggedIn){
-            return <h2>Welcome</h2>
-        }
 
-    )
+    const isLoggedIn = props.isLoggedIn;
+    if (isLoggedIn){
+        return <h2>Welcome back {props.name} </h2>
+    }
+    else{
+        return <h2>please log in to continue</h2>
+    }
 }
 
+
+UserStatus.propType = {
+    name: PropTypes.string,
+    isLoggedIn: PropTypes.bool
+}
 
 export default UserStatus
