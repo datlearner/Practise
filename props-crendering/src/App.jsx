@@ -13,7 +13,7 @@ function App() {
      <Greeting name="John Joe" />
      <UserStatus isLoggedIn = {true} />
      <UserStatus isLoggedIn = {false} />
-     <Product />
+     <Product name = "macbook" price = {} />
     </>
   )
 }
