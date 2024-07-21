@@ -8,6 +8,7 @@ function App() {
      <AdminDashboard name="john doe" age = {33} isStudent = {false} />
      <AdminDashboard name="bianca" />
      <Greeting name="kundai" />
+     <Greeting name="john doe" />
     </>
   )
 }
