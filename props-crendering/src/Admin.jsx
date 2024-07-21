@@ -10,7 +10,7 @@ function AdminDashboard(props){
     );
 }
 
-AdminDashboard.propsType = {
+AdminDashboard.propType = {
     name: PropType.string,
     age: PropType.number,
     isStudent: PropType.bool
