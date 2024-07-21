@@ -13,15 +13,18 @@
  */
 import PropTypes from 'prop-types';
 
-function Notification(props){
+function Notification({ type }){
     return(
-        props.name ? 'Success' : 'error'
+        <div>
+        {type === 'success' && <p>Success: The operation was successful!</p>}
+        {type === 'error' && <p>Error: There was an error with the operation.</p>}
+    </div>
     );
 }
 
 
 Notification.propTypes = {
-    name: PropTypes.bool
+    type: PropTypes.oneOf(['success', 'error']).isRequired,
 }
 
 export default Notification

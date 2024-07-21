@@ -16,7 +16,8 @@ function App() {
      <UserStatus isLoggedIn = {false} />
      <Product name = "macbook" price = {`$1500`} instock = {true}/>
      <Product />
-     <Notification name= {false} />
+     <Notification type="success" />
+     <Notification type="error" />
     </>
   )
 }
