@@ -11,3 +11,15 @@ If isLoggedIn is true, display "Welcome back!".
 If isLoggedIn is false, display "Please log in.".
 Use this component in your App component and toggle the isLoggedIn prop.
 */
+
+import PropTypes from 'prop-types'
+
+function UserStatus(props){
+    return(
+        <div>
+
+        </div>
+    )
+}
+
+export default UserStatus
