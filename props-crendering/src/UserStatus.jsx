@@ -19,9 +19,12 @@ function UserStatus(props){
         /**
          * first i am gonna use the ternary operator and lastly using the if statement
          */
-        <div>
+        <>
+        if (props.isLoggedIn) {
+            return 
+        }
+        </>
 
-        </div>
     )
 }
 
