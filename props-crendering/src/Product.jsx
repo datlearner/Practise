@@ -16,7 +16,8 @@ Use this component in your App component with different products.
 function Product (props) {
     return (
         <div>
-            <p>Name: {} </p>
+            <p>Name: {props.name} </p>
+            <p>Price: {props.price} </p>
         </div>
     );
 }
