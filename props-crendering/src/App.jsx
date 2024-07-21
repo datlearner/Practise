@@ -13,7 +13,7 @@ function App() {
      <Greeting name="John Joe" />
      <UserStatus isLoggedIn = {true} />
      <UserStatus isLoggedIn = {false} />
-     <Product name = "macbook" price = {`$1500`} />
+     <Product name = "macbook" price = {`$1500`} instock = {true}/>
     </>
   )
 }
