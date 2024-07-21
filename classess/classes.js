@@ -31,9 +31,6 @@ class Person{
 }
 let firstPerson = new Person('kundai', 'muchemwa');
 
-/*
-let firstPerson = new Person('kundai', 'muchemwa');
-
 let secondPerson = new Person('john', 'doe');
 
 console.log(firstPerson);
@@ -45,7 +42,3 @@ console.log(firstPerson.age);
 console.log(firstPerson.greet())
 
 console.log(secondPerson.greet());
-*/
-console.log(firstPerson.age)
-
-console.log(firstPerson.greet())
