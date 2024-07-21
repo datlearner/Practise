@@ -74,3 +74,5 @@ class Car{
 let car1 = new Car('toyota', 'corolla', 2003);
 
 console.log(car1);
+
+console.log(car1.make);
