@@ -11,6 +11,7 @@ function App() {
      <Greeting name="Kundai" />
      <Greeting name="John Joe" />
      <UserStatus isLoggedIn = {true} />
+     <UserStatus isLoggedIn = {true} />
     </>
   )
 }
